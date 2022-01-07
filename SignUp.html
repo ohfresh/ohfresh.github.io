@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí</title>
+    <link rel="stylesheet" href="assets/css/SignUp.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="main">
+        <div id="logo">
+            <a href="index.html"> <img src="assets/img/LOGO.png" style="width: 50px; height: 50px; margin-left: 45%; margin-top: 20px;" /></a>
+        </div>
+        <div class="container">
+            <b> Tạo tài khoản </b>
+            <div class="row">
+                <div class="LoginWithGG">
+                    <a class="btn btn-outline-dark" href="#" role="button">
+                        <img width="20px" style="margin-bottom:3px; margin-right:5px" alt="Google sign-in" src="assets/img/icon/google.svg" /> Đăng nhập bằng Google
+                    </a>
+                </div>
+                <div class="LoginWithFacebook">
+                    <a class="btn btn-outline-dark" href="#" role="button">
+                        <img width="20px" style="margin-bottom:3px; margin-right:5px" alt="facebook sign-in" src="assets/img/icon/facebook.svg" /> Đăng nhập bằng Facebook
+                    </a>
+                </div>
+            </div>
+            <div class="or">
+                <hr>
+            </div>
+            <div>
+                <div class="page">
+                    <label class="field">
+                      <input class="input" placeholder="Nguyễn Văn A">
+                      <span class="label-wrap">
+                        <span class="label">Họ và Tên</span>
+                      </span>
+                    </label>
+                    <label class="field field_v2">
+                      <input class="input" type="email" placeholder="abc@gmail.com">
+                      <span class="label-wrap">
+                        <span class="label">Địa chỉ Email</span>
+                      </span>
+                    </label>
+                    <label class="field field_v2">
+                      <input class="input" type="password" id="myInput" placeholder="..........">
+                      <span class="label-wrap">
+                        <span class="label">Mật khẩu</span>
+                      </span>
+                      <img class="hidden" src="assets/img/icon/hidden.svg" onclick="myFunction()">
+                    </label>
+
+                </div>
+                <input class="button" type="button" value="Tạo tài khoản" />
+                <div class="Signup">
+                    <p>Bạn đã có tài khoản? <a href="SignIn.html"> Đăng nhập </a> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myInput");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

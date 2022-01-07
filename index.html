@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/img/LOGO.svg" type="img/x-icon" />
+    <link rel="stylesheet" href="assets/font-awesome/css/all.css">
+    <title>Oh! Fresh - Rau củ tươi mát</title>
+
+    <script type="text/javascript">
+        // Js FOR SLIDER START
+        var counter = 1;
+        setInterval(function() {
+            document.getElementById('r' + counter).checked = true;
+            counter++;
+            if (counter > 4) {
+                counter = 1;
+            }
+        }, 5000);
+        // Js FOR SLIDER END
+    </script>
+
+
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="container1">
+                <div id="logo">
+                    <a href="index.html"><img src="./assets/img/LOGO.png" alt="Oh! Fresh" title="Oh! Fresh" id="logo"></a>
+                </div>
+
+                <!-- <div class="spacer"></div> -->
+                <div id="location-search">
+                    <div id="location">
+                        <div class="delivery-title">
+                            <span>Giao hàng tới</span>
+                            <i class="fas fa-map-marker-alt" style="margin-left: 3px;"></i>
+                        </div>
+
+                        <div class="delivery-site">
+                            <a href="#" class="js-select-location">
+                                <span id="select-site">Chọn khu vực</span>
+                                <i class="fas fa-chevron-down" style="margin-left: 1px;"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Search bar start -->
+                    <div class="search-wrapper">
+                        <div class="search-input">
+                            <input type="text" name="" placeholder="Hôm nay ăn gì?..." id="">
+                            <div class="search-icon"><i class="fas fa-search"></i></div>
+                            <span class="bottom"></span>
+                            <span class="right"></span>
+                            <span class="top"></span>
+                            <span class="left"></span>
+                            <!-- <div class="autocom-box">
+                                <ul>
+                                    <li>Cà rốt</li>
+                                    <li>Dâu tây Dalas</li>
+                                    <li>Chanh không hạt</li>
+                                    <li>Thanh long ruột đỏ</li>
+                                    <li>Măng tây xanh hữu cơ</li>
+                                </ul>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!-- Search bar end-->
+                </div>
+
+                <!-- <div class="spacer"></div> -->
+
+                <div class="link">
+                    <div class="notification">
+                        <a href="#">
+                            <div class="icon"><i class="fas fa-bell"></i></i>
+                            </div>
+                            <span>Thông báo</span>
+                        </a>
+                        <ul class="subnav">
+                            <li><a href="">Rau, củ, quả</a></li>
+                            <li><a href="">Trái cây tươi</a></li>
+                            <li><a href="">Ngũ cốc, hạt</a></li>
+                            <li><a href="">Nấm</a></li>
+                            <li class="last-item"><a href="">Gia vị</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="shopping-cart">
+                        <a href="/cart.html">
+                            <div class="icon"><i class="fas fa-shopping-bag"></i></div>
+                            <span>Giỏ hàng</span>
+                        </a>
+                    </div>
+
+                    <div class="my-account">
+                        <a href="myAccount.html">
+                            <div class="icon"><i class="fas fa-user-circle"></i></div>
+                            <span>Tài khoản</span>
+                        </a>
+                        <ul class="subnav">
+                            <li>
+                                <a href="myAccount.html">
+                                    <div class="icon"><i class="fas fa-user-circle"></i></div>
+                                    <span>Tài khoản của tôi</span>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="SignUp.html">
+                                    <div class="icon"><i class="fas fa-sign-out-alt"></i></div>
+                                    <span>Đăng ký</span>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="SignIn.html">
+                                    <div class="icon"><i class="fas fa-sign-in-alt"></i></div>
+                                    <span>Đăng nhập</span>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="SignIn.html">
+                                    <div class="icon"><i class="fas fa-sign-out-alt"></i></div>
+                                    <span>Đăng xuất</span>
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+            <div id="container2">
+                <div class="nav-category">
+                    <a href="#">
+                        <img src="./assets/img/icon/ic_category.svg" alt="">
+                        <span id="select">Danh mục sản phẩm</span>
+                        <i class="fas fa-chevron-down" style="margin-left: 2%;"></i>
+                    </a>
+
+                    <ul class="subnav">
+                        <li><a href="">Rau, củ, quả</a></li>
+                        <li><a href="">Trái cây tươi</a></li>
+                        <li><a href="">Ngũ cốc, hạt</a></li>
+                        <li><a href="">Nấm</a></li>
+                        <li class="last-item"><a href="">Gia vị</a></li>
+                    </ul>
+                </div>
+
+                <div class="spacer"></div>
+
+                <div id="navigation">
+                    <ul id="nav">
+                        <li><a href="index.html" class="now">Trang chủ</a></li>
+                        <li><a href="promotion.html">Khuyến mãi</a></li>
+                        <li><a href="blogList.html">Blog</a></li>
+                        <li><a href="/AboutUs.html">Về chúng tôi</a></li>
+                        <li><a href="Contact.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="spacer"></div>
+                <div class="hotline">
+                    <img src="./assets/img/icon/ic_hotline.svg" alt="Hotline" class="hotline-icon">
+                    <a href="tel:19004455" title="Hotline">19004455</a>
+                </div>
+
+                <div class="spacer"></div>
+
+                <div class="gift">
+                    <a href="#"><i class="fas fa-gift"></i>Voucher</a>
+                </div>
+            </div>
+        </div>
+        <div id="slider">
+            <div class="slides">
+                <!-- radio buttons start -->
+                <input type="radio" name="radio-btn" id="r1">
+                <input type="radio" name="radio-btn" id="r2">
+                <input type="radio" name="radio-btn" id="r3">
+                <input type="radio" name="radio-btn" id="r4">
+                <!-- radio buttons end -->
+
+                <!-- slide img start -->
+                <div class="slide first">
+                    <img src="./assets/img/tet-promo/banner-tet.png" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="./assets/img/banner1.png" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="./assets/img/banner1.png" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="./assets/img/banner1.png" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="./assets/img/banner1.png" alt="">
+                </div>
+                <!-- slide img end -->
+
+                <!-- automatic slider start -->
+                <div class="slider-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <!-- automatic slider end -->
+
+                <!-- manual slider start -->
+                <div class="slider-manual">
+                    <label for="r1" class="manual-btn"></label>
+                    <label for="r2" class="manual-btn"></label>
+                    <label for="r3" class="manual-btn"></label>
+                    <label for="r4" class="manual-btn"></label>
+
+                </div>
+                <!-- manual slider end -->
+            </div>
+        </div>
+
+        <div id="content">
+            <!-- CATEGORIES START -->
+            <div class="category">
+                <div class="category-iem">
+                    <a href="">
+                        <img src="./assets/img/Category/ic_vegetable.png" alt="">
+                        <p class="category-text">Rau, củ, quả</p>
+                    </a>
+                </div>
+
+                <div class="category-iem">
+                    <a href="">
+                        <img src="./assets/img/Category/ic_fruit.png" alt="">
+                        <p class="category-text">Trái cây tươi</p>
+                    </a>
+                </div>
+
+                <div class="category-iem">
+                    <a href="">
+                        <img src="./assets/img/Category/ic_nut.png" alt="">
+                        <p class="category-text">Ngũ cốc, hạt</p>
+                    </a>
+                </div>
+
+                <div class="category-iem">
+                    <a href="">
+                        <img src="./assets/img/Category/ic_mushroom.png" alt="">
+                        <p class="category-text">Nấm</p>
+                    </a>
+                </div>
+
+                <div class="category-iem">
+                    <a href="">
+                        <img src="./assets/img/Category/ic_spicy-food.png" alt="">
+                        <p class="category-text">Gia vị</p>
+                    </a>
+                </div>
+            </div>
+            <!-- CATEGORIES END -->
+
+            <div id="best-selling" class="row best-selling-list">
+                <h2 class="section-heading">SẢN PHẨM NỔI BẬT</h2>
+                <div class="cd-slider">
+                    <ul class="popular-slider">
+                        <li class="item  current" style="background: white;">
+                            <div class="card" style="background: #F7F7F9;">
+                                <!-- <img src="url"> -->
+                                <div class="img">
+                                    <ul class="cd-gallery">
+                                        <li>
+                                            <a href="productDetail.html">
+                                                <ul class="cd-item-wrapper">
+                                                    <li class="selected">
+                                                        <img src="assets/img/Product/Kale.png" alt="Preview image">
+                                                    </li>
+
+                                                    <li class="move-right" data-sale="true" data-price="$22">
+                                                        <img src="assets/img/Product/kale1.png" alt="Preview image">
+                                                    </li>
+
+                                                    <li>
+                                                        <img src="assets/img/Product/kale2.png" alt="Preview image">
+                                                    </li>
+                                                </ul>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="info">
+                                    <h1 class="popular-title">Cải Kale (Cải Xoăn)</h1>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p>
+                                        Cải Curly Kale là một trong những loại cải khá phổ biến có nguồn gốc từ Hy Lạp. Loại này không kén đất trồng, có thể trồng tại vườn nhà, hoàn toàn có thể được trồng trong chậu, thùng xốp trên sân thượng.
+                                    </p>
+
+                                    <p class="price"><del>85.000 vnđ</del><span class="sale-price popular-sale-price"> 69.000 vnđ</span></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item" style="background: white;">
+                            <div class="card" style="background: #F7F7F9;">
+                                <!-- <img src="url"> -->
+                                <div class="img">
+                                    <ul class="cd-gallery">
+                                        <li>
+                                            <a href="#">
+                                                <ul class="cd-item-wrapper">
+                                                    <li class="selected">
+                                                        <img src="assets/img/Product/Grape.png" alt="Preview image">
+                                                    </li>
+
+                                                    <li class="move-right" data-sale="true" data-price="$22">
+                                                        <img src="assets/img/Product/grape2.png" alt="Preview image">
+                                                    </li>
+
+                                                    <li>
+                                                        <img src="assets/img/Product/grape1.png" alt="Preview image">
+                                                    </li>
+                                                </ul>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="info">
+                                    <h1 class="popular-title">Nho xanh Úc</h1>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p>
+                                        Loại nho này được trồng và nhập khẩu từ nước Úc. Quả không hạt, to và rất giòn, có vị ngọt thanh. So với các loại nho khác, nho xanh đặc biệt chứa một loại enzim tiêu hóa giúp làm sáng và săn chắc da.
+                                    </p>
+                                    <p class="price"><del>280.000 vnđ</del><span class="sale-price popular-sale-price"> 249.000 vnđ</span></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item" style="background: white;">
+                            <div class="card" style="background: #F7F7F9;">
+                                <!-- <img src="url"> -->
+                                <div class="img">
+                                    <ul class="cd-gallery">
+                                        <li>
+                                            <a href="#">
+                                                <ul class="cd-item-wrapper">
+                                                    <li class="selected">
+                                                        <img src="assets/img/Product/strawberry.png" alt="Preview image">
+                                                    </li>
+
+                                                    <li class="move-right" data-sale="true" data-price="$22">
+                                                        <img src="assets/img/Product/strawberry1.png" alt="Preview image">
+                                                    </li>
+
+                                                    <li>
+                                                        <img src="assets/img/Product/strawberry2.png" alt="Preview image">
+                                                    </li>
+                                                </ul>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="info">
+                                    <h1 class="popular-title">Dâu tây Hàn Quốc</h1>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p>
+                                        Dâu tây Hàn Quốc được trồng ở nhà kính thông minh hoàn toàn tự động hóa. Từ trồng cho đến chăm sóc nhằm giảm tối đa việc sử dụng phân bón, thuốc bảo vệ thực vật theo đúng quy trình quản lý thực hành nông nghiệp tốt (GAP).
+                                    </p>
+
+                                    <p class="price"><del>300.000 vnđ</del><span class="sale-price popular-sale-price"> 279.000 vnđ</span></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item" style="background: white;">
+                            <div class="card" style="background: #F7F7F9;">
+                                <!-- <img src="url"> -->
+                                <div class="img">
+                                    <ul class="cd-gallery">
+                                        <li>
+                                            <a href="#">
+                                                <ul class="cd-item-wrapper">
+                                                    <li class="selected">
+                                                        <img src="assets/img/Product/flexseed2.png" alt="Preview image">
+                                                    </li>
+
+                                                    <li class="move-right" data-sale="true" data-price="$22">
+                                                        <img src="assets/img/Product/flexseed.png" alt="Preview image">
+                                                    </li>
+
+                                                    <li>
+                                                        <img src="assets/img/Product/flexseed1.png" alt="Preview image">
+                                                    </li>
+                                                </ul>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="info">
+                                    <h1 class="popular-title">Flexseed (Hạt Lanh)</h1>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p>
+                                        Hạt lanh là một loại thực phẩm có nguồn gốc thực vật cung cấp chất béo, chất chống oxy hóa và chất xơ có lợi cho sức khỏe, còn được gọi là thực phẩm chức năng vì nó có khả năng tăng cường sức khỏe.
+                                    </p>
+
+                                    <p class="price"><del>85.000 vnđ</del><span class="sale-price  popular-sale-price"> 78.000 vnđ</span></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item" style="background: white;">
+                            <div class="card" style="background: #F7F7F9;">
+                                <!-- <img src="url"> -->
+                                <div class="img">
+                                    <ul class="cd-gallery">
+                                        <li>
+                                            <a href="#">
+                                                <ul class="cd-item-wrapper">
+                                                    <li class="selected">
+                                                        <img src="assets/img/Product/Grape.png" alt="Preview image">
+                                                    </li>
+
+                                                    <li class="move-right" data-sale="true" data-price="$22">
+                                                        <img src="assets/img/Product/grape2.png" alt="Preview image">
+                                                    </li>
+
+                                                    <li>
+                                                        <img src="assets/img/Product/grape1.png" alt="Preview image">
+                                                    </li>
+                                                </ul>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="info">
+                                    <h1 class="popular-title">Nho xanh Úc</h1>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p>
+                                        Loại nho này được trồng và nhập khẩu từ nước Úc. Quả không hạt, to và rất giòn, có vị ngọt thanh. So với các loại nho khác, nho xanh đặc biệt chứa một loại enzim tiêu hóa giúp làm sáng và săn chắc da.
+                                    </p>
+
+                                    <p class="price"><del>30.000 vnđ</del><span class="sale-price popular-sale-price"> 19.000 vnđ</span></p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="popular-nav">
+                        <a href="#" class="prev">
+                            <i class="fas fa-chevron-left best-selling-arrow"></i>
+                        </a>
+                        <a href="#" class="next">
+                            <i class="fas fa-chevron-right best-selling-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="best-selling" class="best-selling-list">
+                <h2 class="section-heading">SẢN PHẨM BÁN CHẠY</h2>
+                <div id="product-box">
+                    <div class="middleArea"></div>
+                    <div class="mySlider">
+                        <div class="slideItems item1 active">
+                            <a href="productDetail.html">
+                                <div class="best-selling-border">
+                                    <img src="assets/img/Product/Apple.png" alt="" class="best-selling-img">
+                                    <div class="best-selling-body">
+                                        <h3 class="best-selling-name">Táo đỏ New Zealand</h3>
+                                        <p class="best-selling-unit">Đơn vị: KG</p>
+                                        <p class="price"><del>60.000 vnđ</del><span class="sale-price"> 49.000 vnđ</span></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="slideItems item2 next">
+                            <div class="best-selling-border">
+                                <img src="assets/img/Product/Carrot.png" alt="" class="best-selling-img">
+                                <div class="best-selling-body">
+                                    <h3 class="best-selling-name">Cà rốt Đà Lạt</h3>
+                                    <p class="best-selling-unit">Đơn vị: KG</p>
+                                    <p class="price"><del>40.000 vnđ</del><span class="sale-price"> 29.000 vnđ</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slideItems item3 next">
+                            <div class="best-selling-border">
+                                <img src="assets/img/Product/Blueberry.png" alt="" class="best-selling-img">
+                                <div class="best-selling-body">
+                                    <h3 class="best-selling-name">Việt quốc</h3>
+                                    <p class="best-selling-unit">Đơn vị: KG</p>
+                                    <p class="price"><del>200.000 vnđ</del><span class="sale-price"> 159.000 vnđ</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slideItems item4 next">
+                            <div class="best-selling-border">
+                                <img src="assets/img/Product/Macca.png" alt="" class="best-selling-img">
+                                <div class="best-selling-body">
+                                    <h3 class="best-selling-name">Hạt Macca</h3>
+                                    <p class="best-selling-unit">Đơn vị: KG</p>
+                                    <p class="price"><del>120.000 vnđ</del><span class="sale-price"> 109.000 vnđ</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slideItems item5 next">
+                            <div class="best-selling-border">
+                                <img src="assets/img/Product/Onion.png" alt="" class="best-selling-img">
+                                <div class="best-selling-body">
+                                    <h3 class="best-selling-name">Hành tây</h3>
+                                    <p class="best-selling-unit">Đơn vị: KG</p>
+                                    <p class="price"><del>60.000 vnđ</del><span class="sale-price"> 39.000 vnđ</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slideItems item6 next">
+                            <div class="best-selling-border">
+                                <img src="assets/img/Product/Cauliflower.png" alt="" class="best-selling-img">
+                                <div class="best-selling-body">
+                                    <h3 class="best-selling-name">Bông cải trắng</h3>
+                                    <p class="best-selling-unit">Đơn vị: KG</p>
+                                    <p class="price"><del>40.000 vnđ</del><span class="sale-price"> 29.000 vnđ</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slideItems item7 next">
+                            <div class="best-selling-border">
+                                <img src="assets/img/Product/walnut.png" alt="" class="best-selling-img">
+                                <div class="best-selling-body">
+                                    <h3 class="best-selling-name">Ốc chó</h3>
+                                    <p class="best-selling-unit">Đơn vị: KG</p>
+                                    <p class="price"><del>60.000 vnđ</del><span class="sale-price"> 49.000 vnđ</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="myNavs">
+                        <div class="slider-left"><i id="navleft" class="fas fa-chevron-left best-selling-arrow"></i></div>
+                        <div class="slider-right"><i id="navright" class="fas fa-chevron-right best-selling-arrow"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="new-product" class="row new-product-list">
+                <h2 class="section-heading">SẢN PHẨM MỚI</h2>
+                <div id="wrapper-product">
+                    <div class="col col-half">
+                        <table class="new-product-border mgbt">
+                            <tbody>
+                                <td class="new-product-img-border">
+                                    <img src="assets/img/Product/Carrot.png" alt="" class="new-product-img">
+                                </td>
+                                <td>
+                                    <div class="new-product-body">
+                                        <h3 class="new-product-name">Cà rốt Đà Lạt</h3>
+                                        <p class="new-product-unit">Đơn vị: KG</p>
+                                        <p class="price"><del>30.000 vnđ</del><span class="sale-price"> 19.000 vnđ</span></p>
+                                    </div>
+                                </td>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="col col-half">
+                        <table class="new-product-border mgbt">
+                            <tbody>
+                                <td class="new-product-img-border">
+                                    <img src="assets/img/Product/Blueberry.png" alt="" class="new-product-img">
+                                </td>
+                                <td>
+                                    <div class="new-product-body">
+                                        <h3 class="new-product-name">Blueberry</h3>
+                                        <p class="new-product-unit">Đơn vị: KG</p>
+                                        <p class="price"><del>30.000 vnđ</del><span class="sale-price"> 19.000 vnđ</span></p>
+                                    </div>
+                                </td>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="col col-half">
+                        <table class="new-product-border">
+                            <tbody>
+                                <td class="new-product-img-border">
+                                    <img src="assets/img/Product/Cauliflower.png" alt="" class="new-product-img">
+                                </td>
+                                <td>
+                                    <div class="new-product-body">
+                                        <h3 class="new-product-name">Bông cải trắng</h3>
+                                        <p class="new-product-unit">Đơn vị: KG</p>
+                                        <p class="price"><del>30.000 vnđ</del><span class="sale-price"> 19.000 vnđ</span></p>
+                                    </div>
+                                </td>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="col col-half">
+                        <a href="productDetail.html">
+                            <table class="new-product-border">
+                                <tbody>
+                                    <td class="new-product-img-border">
+                                        <img src="assets/img/Product/Apple.png" alt="" class="new-product-img">
+                                    </td>
+                                    <td>
+                                        <div class="new-product-body">
+                                            <h3 class="new-product-name">Táo</h3>
+                                            <p class="new-product-unit">Đơn vị: KG</p>
+                                            <p class="price"><del>30.000 vnđ</del><span class="sale-price"> 19.000 vnđ</span></p>
+                                        </div>
+                                    </td>
+                                </tbody>
+                            </table>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <button onclick="window.location.href='ProductList.html'" class="discover-more-button more-product-button">Discover More</button>
+                </div>
+            </div>
+
+            <div id="lastest-post" class="row lastest-post-list">
+                <h2 class="section-heading lastest-post">BÀI VIẾT MỚI NHẤT</h2>
+                <div id="wrapper-blog">
+                    <div class="col col-half blogthumb">
+                        <table class="lastest-post-border" style="background-image: url('assets/img/Blog/Blog.jpg')">
+                            <tbody>
+                                <td></td>
+                                <td width=50%>
+                                    <a href="/blogDetail.html" target="_blank">
+                                        <div class="lastest-post-body">
+                                            <h3 class="lastest-post-name">"EATCLEAN" <br> VÀ NHỮNG ĐIỀU <br> CẦN LƯU Ý</h3>
+                                            <hr class="lastest-post-hr">
+                                            <p class="lastest-post-date">Ngày đăng: <br>10/12/2021</p>
+                                        </div>
+                                    </a>
+                                </td>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="col col-half blogthumb">
+                        <table class="lastest-post-border" style="background-image: url('assets/img/Blog/Eatclean.jpg')">
+                            <tbody>
+                                <td></td>
+                                <td width=50%>
+                                    <div class="lastest-post-body">
+                                        <h3 class="lastest-post-name">HỌC CÁCH <br> XÂY DỰNG MỘT <br> LỐI SỐNG XANH</h3>
+                                        <hr class="lastest-post-hr">
+                                        <p class="lastest-post-date">Ngày đăng: <br>10/12/2021</p>
+                                    </div>
+                                </td>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div style="display: block;">
+                    <button onclick="window.location.href='blogList.html'" class="discover-more-button more-blog-button">Discover More</button>
+
+                </div>
+            </div>
+
+            <div id="client" class="row client-list">
+                <h2 class="section-heading">ĐÁNH GIÁ TỪ KHÁCH HÀNG</h2>
+                <div class="col col-third">
+                    <div class="client-say-border">
+                        <img src="assets/img/Client/p1.png" alt="Anh Huy Hoàng">
+                        <div class="client-name">Anh <b>Huy Hoàng</b></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <hr class="client-say-hr">
+                        <p class="client-say-content">
+                            &nbsp;&nbsp;&nbsp;&nbsp; Giao hàng nhanh, nhân viên tư vấn rất tận tình, sản phẩm tươi ngon và có nguồn gốc rõ ràng. Mình rất yên tâm khi mua hàng ở Oh! Fresh. Mình cũng đã giới thiệu cho bạn bè và người thân mua hàng ở đây, ai cũng đánh giá cao và không
+                            phàn nàn về chất lượng của của hàng nên mọi người yên tâm mua sắm nha!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col col-third">
+                    <div class="client-say-border">
+                        <img src="assets/img/Client/p2.png" alt="Chị Khánh Hân">
+                        <div class="client-name">Chị <b>Khánh Hân</b></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <hr class="client-say-hr">
+                        <p class="client-say-content">
+                            &nbsp;&nbsp;&nbsp;&nbsp; Giao hàng nhanh, nhân viên tư vấn rất tận tình, sản phẩm tươi ngon và có nguồn gốc rõ ràng. Mình rất yên tâm khi mua hàng ở Oh! Fresh. Mình cũng đã giới thiệu cho bạn bè và người thân mua hàng ở đây, ai cũng đánh giá cao và không
+                            phàn nàn về chất lượng của của hàng nên mọi người yên tâm mua sắm nha!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col col-third">
+                    <div class="client-say-border">
+                        <img src="assets/img/Client/p3.png" alt="Chị Thu Trang">
+                        <div class="client-name">Chị <b>Thu Trang</b></div>
+                        <div class="stars">
+
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <hr class="client-say-hr">
+                        <p class="client-say-content">
+                            &nbsp;&nbsp;&nbsp;&nbsp; Giao hàng nhanh, nhân viên tư vấn rất tận tình, sản phẩm tươi ngon và có nguồn gốc rõ ràng. Mình rất yên tâm khi mua hàng ở Oh! Fresh. Mình cũng đã giới thiệu cho bạn bè và người thân mua hàng ở đây, ai cũng đánh giá cao và không
+                            phàn nàn về chất lượng của của hàng nên mọi người yên tâm mua sắm nha!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="row footer-body">
+                <div class="row">
+                    <div class="col col-four footer-section">
+                        <h3 class="footer-title">VỀ OH! FRESH</h3>
+                        <hr class="footer-hr">
+                        <div class="footer-content">
+                            <a class="footer-infor" href="">Câu chuyện thương hiệu</a> <br>
+                            <a class="footer-infor" href="">Về chúng tôi</a> <br>
+                            <a class="footer-infor" href="">Liên hệ</a>
+                        </div>
+                    </div>
+
+                    <div class="col col-four footer-section">
+                        <h3 class="footer-title">MY OH! FRESH</h3>
+                        <hr class="footer-hr">
+                        <div class="footer-content">
+                            <a class="footer-infor" href="">Quyền lợi thành viên</a> <br>
+                            <a class="footer-infor" href="">Thông tin thành viên</a> <br>
+                            <a class="footer-infor" href="">Theo dõi đơn hàng</a> <br>
+                            <a class="footer-infor" href="">Hướng dẫn đặt hàng</a>
+                        </div>
+                    </div>
+
+                    <div class="col col-four footer-section">
+                        <h3 class="footer-title">CHÍNH SÁCH</h3>
+                        <hr class="footer-hr">
+                        <div class="footer-content">
+                            <a class="footer-infor" href="">Chính sách và qui định chung</a> <br>
+                            <a class="footer-infor" href="">Chính sách và giao nhận thanh toán</a> <br>
+                            <a class="footer-infor" href="">Chính sách đổi trả sản phẩm</a> <br>
+                            <a class="footer-infor" href="">Chính sách bảo mật  thông tin cá nhân</a> <br>
+                            <a class="footer-infor" href="">Điều khoản sử dụng</a>
+                        </div>
+                    </div>
+
+                    <div class="col col-four footer-section" style="text-align: center; padding-top: 30px;">
+                        <img src="assets/img/BCT.png" alt="Bộ công thương" width="70%">
+                        <img src="assets/img/duns.png" alt="Bộ công thương" width="30%">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col col-third footer-section">
+                        <h3 class="footer-title">ĐỊA CHỈ LIÊN HỆ</h3>
+                        <hr class="footer-hr">
+                        <div class="footer-content">
+                            <i class="fas fa-map-marker-alt"></i> &nbsp;
+                            <a class="footer-infor" href="">365 Lê Văn Sỹ, Phường 12, Quận 3. <br>
+                            100 Hoàng Hoa Thám, Phường 12, Quận Tân Bình.
+                        </a>
+                            <br><br>
+
+                            <i class="fas fa-phone"></i> &nbsp;
+                            <a class="footer-infor" href="">0123.456.789</a>
+                            <br><br>
+
+                            <i class="fas fa-envelope"></i> &nbsp;
+                            <a class="footer-infor" href="">ohfreshgrocery@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="col col-third footer-section">
+                        <h3 class="footer-title">KẾT NỐI</h3>
+                        <hr class="footer-hr">
+                        <div class="footer-content">
+                            <div class="socials-list">
+                                <a href=""><i class="fab fa-facebook socials-list-icon"></i></a>
+                                <a href=""><i class="fab fa-instagram socials-list-icon"></i></a>
+                                <a href=""><i class="fab fa-twitter socials-list-icon"></i></a>
+                            </div>
+                        </div>
+
+                        <h3 class="footer-title">PHƯƠNG THỨC THANH TOÁN</h3>
+                        <hr class="footer-hr">
+                        <div class="footer-content">
+                            <div class="payment-list">
+                                <img src="assets/img/icon/ic_truck.png">
+                                <img src="assets/img/payment/ic_momo.png">
+                                <img src="assets/img/payment/ic_zalopay.png">
+                                <img src="assets/img/icon/ic_napas.png">
+                                <img src="assets/img/icon/ic_visa.png">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-third footer-section">
+                        <h3 class="footer-title">THÔNG TIN KHUYẾN MÃI</h3>
+                        <hr class="footer-hr">
+                        <div class="footer-content center-content">
+                            <div>
+                                <input type="text" name="" placeholder="Nhập email *" required id="" class="form-control">
+                            </div>
+                            <div>
+                                <input type="text" name="" placeholder="Thắc mắc hoặc đóng góp ý kiến (nếu có)" id="" class="form-control form-control-fb">
+                            </div>
+                            <input class="form-send" type="submit" value="Gửi">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <button class="btnScrollToTopp">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JS for scroll to top button start -->
+
+    <script>
+        const btnScrollToTopp = document.querySelector('.btnScrollToTopp');
+
+        btnScrollToTopp.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "smooth"
+            });
+        });
+
+        window.addEventListener("scroll", () => {
+            if (window.pageYOffset > 500) {
+                btnScrollToTopp.classList.add("hide");
+            } else {
+                btnScrollToTopp.classList.remove("hide");
+            }
+        })
+    </script>
+    <!-- JS for scroll to top button end -->
+
+
+    <button for="show" class="show-btnFunction btnChat js-btnChat">
+        <i class="far fa-comment-alt"></i>
+    </button>
+
+    <div class="chatWrapper js-chatWrapper">
+        <div class="chat-header">
+            <h5>Let's chat? - Online</h5>
+            <i class="fas fa-times close-chat js-close-chat"></i>
+        </div>
+
+        <p>Please fill form below to start chatting with us!</p>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Your queries" required>
+            <button>Start chat</button>
+        </form>
+
+        <footer>Powered by Oh! Fresh</footer>
+
+    </div>
+
+    <!-- JS for chat box start -->
+    <script>
+        const chatBox = document.querySelector('.js-chatWrapper')
+        const btnchat = document.querySelector('.js-btnChat')
+        const btnclose = document.querySelector('.js-close-chat')
+
+        function showChatBox() {
+            chatBox.classList.add('showChat');
+        }
+
+        function hideChatBox() {
+            chatBox.classList.remove('showChat');
+
+        }
+
+        btnchat.addEventListener('click', showChatBox);
+
+        btnclose.addEventListener('click', hideChatBox);
+    </script>
+    <!-- JS for chat box end-->
+
+    <a href="tel:19004455">
+        <button for="show" class="show-btnFunction btnPhone">
+            <i class="fas fa-phone"></i>
+        </button>
+    </a>
+
+
+
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="fas fa-times"></i>
+            </div>
+
+            <header class="modal-header">
+                <img src="assets/img/LOGO_white.png" alt="">
+            </header>
+
+            <div class="modal-body">
+
+                <label for="quantity" class="modal-label">
+                    <i class="ti-shopping-cart"></i>
+                    Vui lòng chọn khu vực mua sắm của bạn
+                </label>
+
+                <div class="dropdown-list">
+                    <div class="dropdown-select">
+                        <span class="select">Chọn khu vực</span>
+                        <i class="fas fa-sort-down"></i>
+                    </div>
+
+                    <div class="dropdown-list">
+                        <div class="dropdown-list_item">Hà Nội</div>
+                        <div class="dropdown-list_item">Đà Nẵng</div>
+                        <div class="dropdown-list_item">Hồ Chí Minh</div>
+                    </div>
+                </div>
+
+                <div class="confirm">
+                    <button>Xác nhận</button>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Js FOR POP-UP START -->
+
+        <script>
+            // Js FOR POP-UP START
+            const slLocation = document.querySelector('.js-select-location')
+
+            const modal = document.querySelector('.js-modal')
+            const modalClose = document.querySelector('.js-modal-close')
+            const modalContainer = document.querySelector('.js-modal-container')
+
+            function showLocationPopup() {
+                modal.classList.add('open')
+            }
+
+            function hideLocationPopup() {
+                modal.classList.remove('open')
+            }
+
+            slLocation.addEventListener('click', showLocationPopup)
+
+            modalClose.addEventListener('click', hideLocationPopup)
+
+            modal.addEventListener('click', hideLocationPopup)
+
+            modalContainer.addEventListener('click', function(event) {
+                    event.stopPropagation()
+                })
+                // Js FOR POP-UP END
+        </script>
+
+
+
+
+        <!-- PRODUCT SLIDER START -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+        <script src="/assets/js/product-slider.js"></script>
+        <!-- PRODUCT SLIDER END -->
+
+        <!-- POPULAR SLIDER START -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+        <script src="/assets/js/popular slider js/slider-script.js"></script>
+
+        <script src="/assets/js/popular slider js/jquery-2.1.1.js"></script>
+        <script src="/assets/js/popular slider js/jquery.mobile.min.js"></script>
+        <script src="/assets/js/popular slider js/main.js"></script>
+        <!-- POPULAR SLIDER END -->
+
+</body>
+
+</html>

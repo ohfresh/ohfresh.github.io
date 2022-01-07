@@ -1,0 +1,107 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+}
+.contact-in
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.contact-map
+{
+    width: 100%;
+    height: 300px;
+    flex: 50px;
+}
+.contact-map p
+{
+    padding: 5px;
+}
+.contact-map a
+{
+    padding: 3px;
+}
+.contact-map iframe
+{
+    width: 100%;
+    height: 100%;
+    margin-top: 23px;
+    border-radius: 30px;
+}
+.contact-form
+{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    
+}
+.contact-form h1
+{
+    margin-bottom: 10px;
+}
+.contact-form p
+{
+    float: left;
+    margin: 8px;
+    font-size: 18px;
+}
+.contact-form
+{
+    width: 100%;
+    height: auto;
+    flex: 50px;
+    text-align: center;
+}
+.contact-form-txt
+{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.contact-form-txtarea
+{
+    width: 100%;
+    height: 130px;
+    border: 1px solid #bcbcbc;
+    border-radius: 30px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.contact-form-btn
+{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 10px 0;
+    font-size: 20px;
+    background-color: #00B761;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*end*/
+
