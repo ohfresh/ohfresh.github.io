@@ -17,55 +17,53 @@
 </head>
 
 <body>
-    <div id="mai">
+    <div id="main">
         <div id="header">
             <div id="container1">
                 <div id="logo">
                     <a href="index.html"><img src="assets/img/LOGO.png" alt="Oh! Fresh" title="Oh! Fresh" id="logo"></a>
                 </div>
 
-                <div class="spacer"></div>
-                <div id="location">
-                    <div class="delivery-title">
-                        <span>Giao hàng tới</span>
-                        <i class="fas fa-map-marker-alt" style="margin-left: 3px;"></i>
+                <!-- <div class="spacer"></div> -->
+                <div id="location-search">
+                    <div id="location">
+                        <div class="delivery-title">
+                            <span>Giao hàng tới</span>
+                            <i class="fas fa-map-marker-alt" style="margin-left: 3px;"></i>
+                        </div>
+
+                        <div class="delivery-site">
+                            <a href="#" class="js-select-location">
+                                <span id="select-site">Chọn khu vực</span>
+                                <i class="fas fa-chevron-down" style="margin-left: 1px;"></i>
+                            </a>
+                        </div>
                     </div>
 
-                    <div class="delivery-site">
-                        <a href="#" class="js-select-location">
-                            <span id="select-site">Chọn khu vực</span>
-                            <i class="fas fa-chevron-down" style="margin-left: 1px;"></i>
-                        </a>
+                    <!-- Search bar start -->
+                    <div class="search-wrapper">
+                        <div class="search-input">
+                            <input type="text" name="" placeholder="Hôm nay ăn gì?..." id="">
+                            <div class="search-icon"><i class="fas fa-search"></i></div>
+                            <span class="bottom"></span>
+                            <span class="right"></span>
+                            <span class="top"></span>
+                            <span class="left"></span>
+                            <!-- <div class="autocom-box">
+                                <ul>
+                                    <li>Cà rốt</li>
+                                    <li>Dâu tây Dalas</li>
+                                    <li>Chanh không hạt</li>
+                                    <li>Thanh long ruột đỏ</li>
+                                    <li>Măng tây xanh hữu cơ</li>
+                                </ul>
+                            </div> -->
+                        </div>
                     </div>
-                    <!-- <div class="dropdown">
-    
-    
-                    </div> -->
+                    <!-- Search bar end-->
                 </div>
 
                 <!-- <div class="spacer"></div> -->
-
-                <div class="search-wrapper">
-                    <div class="search-input">
-                        <input type="text" name="" placeholder="Hôm nay ăn gì?..." id="">
-                        <div class="search-icon"><i class="fas fa-search"></i></div>
-                        <span class="bottom"></span>
-                        <span class="right"></span>
-                        <span class="top"></span>
-                        <span class="left"></span>
-                        <!-- <div class="autocom-box">
-                            <ul>
-                                <li>Cà rốt</li>
-                                <li>Dâu tây Dalas</li>
-                                <li>Chanh không hạt</li>
-                                <li>Thanh long ruột đỏ</li>
-                                <li>Măng tây xanh hữu cơ</li>
-                            </ul>
-                        </div> -->
-                    </div>
-                </div>
-
-                <div class="spacer"></div>
 
                 <div class="link">
                     <div class="notification">
@@ -74,6 +72,49 @@
                             </div>
                             <span>Thông báo</span>
                         </a>
+                        <ul class="subnav">
+                            <p class="notification-label">Thông báo của bạn</p>
+                            <li>
+                                <a href="#">
+                                    <div class="notify-section">
+                                        <div class="notify-thumb">
+                                            <img src="assets/img/Product/Apple.png" alt="">
+                                        </div>
+                                        <div class="notify-text">
+                                            <h5>Rẻ chưa từng có đồng giá 29K</h5>
+                                            <p>Thu thập ngay voucher 50K cho đơn từ 100K. Xem ngay tại đây!</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="orderDetail.html">
+                                    <div class="notify-section">
+                                        <div class="notify-thumb">
+                                            <i class="fas fa-truck-loading"></i>
+                                        </div>
+                                        <div class="notify-text">
+                                            <h5>Đã xác nhận đơn hàng</h5>
+                                            <p>Đơn hàng #123456 đã được xác nhận. Vui lòng chờ Oh! Fresh một lát nhé!</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="notify-section">
+                                        <div class="notify-thumb">
+                                            <img src="assets/img//tet-promo/ic_tet2.png" alt="">
+                                        </div>
+                                        <div class="notify-text">
+                                            <h5>Siêu khuyến mãi chào năm mới!</h5>
+                                            <p>Thu thập ngay voucher 50K cho đơn từ 100K. Xem ngay tại đây!</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <a href="#" class="more">Xem thêm</a>
+                        </ul>
                     </div>
 
                     <div class="shopping-cart">
@@ -84,10 +125,40 @@
                     </div>
 
                     <div class="my-account">
-                        <a href="myAccount.html">
+                        <a href="#">
                             <div class="icon"><i class="fas fa-user-circle"></i></div>
                             <span>Tài khoản</span>
                         </a>
+                        <ul class="subnav">
+                            <li>
+                                <a href="myAccount.html">
+                                    <div class="icon"><i class="fas fa-user-circle"></i></div>
+                                    <span>Tài khoản của tôi</span>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="SignUp.html">
+                                    <div class="icon"><i class="fas fa-user-plus"></i></div>
+                                    <span>Đăng ký</span>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="SignIn.html">
+                                    <div class="icon"><i class="fas fa-sign-in-alt"></i></div>
+                                    <span>Đăng nhập</span>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="SignIn.html">
+                                    <div class="icon"><i class="fas fa-sign-out-alt"></i></div>
+                                    <span>Đăng xuất</span>
+                                </a>
+
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
@@ -100,27 +171,35 @@
                         <span id="select">Danh mục sản phẩm</span>
                         <i class="fas fa-chevron-down" style="margin-left: 2%;"></i>
                     </a>
+
+                    <ul class="subnav">
+                        <li><a href="">Rau, củ, quả</a></li>
+                        <li><a href="">Trái cây tươi</a></li>
+                        <li><a href="">Ngũ cốc, hạt</a></li>
+                        <li><a href="">Nấm</a></li>
+                        <li class="last-item"><a href="">Gia vị</a></li>
+                    </ul>
                 </div>
 
                 <div class="spacer"></div>
 
                 <div id="navigation">
                     <ul id="nav">
-                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="index.html" class="now">Trang chủ</a></li>
                         <li><a href="promotion.html">Khuyến mãi</a></li>
                         <li><a href="blogList.html">Blog</a></li>
                         <li><a href="AboutUs.html">Về chúng tôi</a></li>
                         <li><a href="Contact.html">Liên hệ</a></li>
                     </ul>
                 </div>
-
                 <div class="spacer"></div>
-
                 <div class="hotline">
                     <img src="assets/img/icon/ic_hotline.svg" alt="Hotline" class="hotline-icon">
                     <a href="tel:19004455" title="Hotline">19004455</a>
                 </div>
+
                 <div class="spacer"></div>
+
                 <div class="gift">
                     <a href="#"><i class="fas fa-gift"></i>Voucher</a>
                 </div>
@@ -159,7 +238,7 @@
                     </div>
                     <h1 class="filter-heading">Giá sản phẩm</h1>
                     <div>
-                        <select  class="price-filter">
+                        <select class="price-filter">
                             <option value="" selected>0 - 99.000đ</option>
                             <option value="">100.000đ - 199.000đ</option>
                             <option value="">200.000 - 299.000</option>
@@ -194,118 +273,120 @@
                         <div class="card-list">
                             <div class="card-body">
                                 <table style="border-spacing: 40px;">
-                                  <tr>
-                                      <td>
-                                        <a href="productDetail.html">
-                                            <div class="best-selling-border">
-                                                <img src="assets/img/Product/Apple.png" alt="" class="best-selling-img">
-                                                <div class="best-selling-body">
-                                                    <h3 class="best-selling-name">Táo đỏ New Zealand</h3>
-                                                    <p class="best-selling-unit">Đơn vị: KG</p>
-                                                    <p class="price"><del>60.000 vnđ</del><span class="sale-price"> 49.000 vnđ</span></p>
+                                    <tr>
+                                        <td>
+                                            <a href="productDetail.html">
+                                                <div class="best-selling-border">
+                                                    <img src="assets/img/Product/Apple.png" alt="" class="best-selling-img">
+                                                    <div class="best-selling-body">
+                                                        <h3 class="best-selling-name">Táo đỏ New Zealand</h3>
+                                                        <p class="best-selling-unit">Đơn vị: KG</p>
+                                                        <p class="price"><del>60.000 vnđ</del><span class="sale-price"> 49.000 vnđ</span></p>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </a>
-                                      </td>
-                                      <td>
-                                        <a href="productDetail.html">
-                                            <div class="best-selling-border">
-                                                <img src="assets/img/Product/broc.png" alt="" class="best-selling-img">
-                                                <div class="best-selling-body">
-                                                    <h3 class="best-selling-name">Bông cải xanh</h3>
-                                                    <p class="best-selling-unit">Đơn vị: KG</p>
-                                                    <p class="price"><del>90.000 vnđ</del><span class="sale-price"> 79.000 vnđ</span></p>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="productDetail.html">
+                                                <div class="best-selling-border">
+                                                    <img src="assets/img/Product/broc.png" alt="" class="best-selling-img">
+                                                    <div class="best-selling-body">
+                                                        <h3 class="best-selling-name">Bông cải xanh</h3>
+                                                        <p class="best-selling-unit">Đơn vị: KG</p>
+                                                        <p class="price"><del>90.000 vnđ</del><span class="sale-price"> 79.000 vnđ</span></p>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </a>
-                                      </td>
-                                      <td>   <a href="productDetail.html">
-                                        <div class="best-selling-border">
-                                            <img src="assets/img/Product/cherry (2).png" alt="" class="best-selling-img">
-                                            <div class="best-selling-body">
-                                                <h3 class="best-selling-name">Cherry</h3>
-                                                <p class="best-selling-unit">Đơn vị: KG</p>
-                                                <p class="price"><del>215.000 vnđ</del><span class="sale-price"> 109.000 vnđ</span></p>
-                                            </div>
-                                        </div>
-                                    </a></td>
-                                  </tr>
-                                  <tr>
-                                      <td>
-                                        <a href="productDetail.html">
-                                            <div class="best-selling-border">
-                                                <img src="assets/img/Product/beetroot.png" alt="" class="best-selling-img">
-                                                <div class="best-selling-body">
-                                                    <h3 class="best-selling-name">Củ dền</h3>
-                                                    <p class="best-selling-unit">Đơn vị: KG</p>
-                                                    <p class="price"><del>60.000 vnđ</del><span class="sale-price"> 49.000 vnđ</span></p>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="productDetail.html">
+                                                <div class="best-selling-border">
+                                                    <img src="assets/img/Product/cherry (2).png" alt="" class="best-selling-img">
+                                                    <div class="best-selling-body">
+                                                        <h3 class="best-selling-name">Cherry</h3>
+                                                        <p class="best-selling-unit">Đơn vị: KG</p>
+                                                        <p class="price"><del>215.000 vnđ</del><span class="sale-price"> 109.000 vnđ</span></p>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </a>
-                                      </td>
-                                      <td>
-                                        <a href="productDetail.html">
-                                            <div class="best-selling-border">
-                                                <img src="assets/img/Product/peach.png" alt="" class="best-selling-img">
-                                                <div class="best-selling-body">
-                                                    <h3 class="best-selling-name">Đào</h3>
-                                                    <p class="best-selling-unit">Đơn vị: KG</p>
-                                                    <p class="price"><del>110.000 vnđ</del><span class="sale-price"> 99.000 vnđ</span></p>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="productDetail.html">
+                                                <div class="best-selling-border">
+                                                    <img src="assets/img/Product/beetroot.png" alt="" class="best-selling-img">
+                                                    <div class="best-selling-body">
+                                                        <h3 class="best-selling-name">Củ dền</h3>
+                                                        <p class="best-selling-unit">Đơn vị: KG</p>
+                                                        <p class="price"><del>60.000 vnđ</del><span class="sale-price"> 49.000 vnđ</span></p>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </a>
-                                      </td>
-                                      <td>
-                                        <a href="productDetail.html">
-                                            <div class="best-selling-border">
-                                                <img src="assets/img/Product/watermelon.png" alt="" class="best-selling-img">
-                                                <div class="best-selling-body">
-                                                    <h3 class="best-selling-name">Dưa hấu</h3>
-                                                    <p class="best-selling-unit">Đơn vị: KG</p>
-                                                    <p class="price"><del>40.000 vnđ</del><span class="sale-price"> 25.000 vnđ</span></p>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="productDetail.html">
+                                                <div class="best-selling-border">
+                                                    <img src="assets/img/Product/peach.png" alt="" class="best-selling-img">
+                                                    <div class="best-selling-body">
+                                                        <h3 class="best-selling-name">Đào</h3>
+                                                        <p class="best-selling-unit">Đơn vị: KG</p>
+                                                        <p class="price"><del>110.000 vnđ</del><span class="sale-price"> 99.000 vnđ</span></p>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </a>
-                                      </td>
-                                  </tr>
-                                  <tr>
-                                    <td>
-                                      <a href="productDetail.html">
-                                          <div class="best-selling-border">
-                                              <img src="assets/img/Product/lychee.png" alt="" class="best-selling-img">
-                                              <div class="best-selling-body">
-                                                  <h3 class="best-selling-name">Vải</h3>
-                                                  <p class="best-selling-unit">Đơn vị: KG</p>
-                                                  <p class="price"><del>80.000 vnđ</del><span class="sale-price"> 69.000 vnđ</span></p>
-                                              </div>
-                                          </div>
-                                      </a>
-                                    </td>
-                                    <td>
-                                      <a href="productDetail.html">
-                                          <div class="best-selling-border">
-                                              <img src="assets/img/Product/passionfruit.png" alt="" class="best-selling-img">
-                                              <div class="best-selling-body">
-                                                  <h3 class="best-selling-name">Chanh dây</h3>
-                                                  <p class="best-selling-unit">Đơn vị: KG</p>
-                                                  <p class="price"><del>149.000 vnđ</del><span class="sale-price"> 129.000 vnđ</span></p>
-                                              </div>
-                                          </div>
-                                      </a>
-                                    </td>
-                                    <td>
-                                      <a href="productDetail.html">
-                                          <div class="best-selling-border">
-                                              <img src="assets/img/Product/guava.png" alt="" class="best-selling-img">
-                                              <div class="best-selling-body">
-                                                  <h3 class="best-selling-name">Ổi</h3>
-                                                  <p class="best-selling-unit">Đơn vị: KG</p>
-                                                  <p class="price"><del>60.000 vnđ</del><span class="sale-price"> 55.000 vnđ</span></p>
-                                              </div>
-                                          </div>
-                                      </a>
-                                    </td>
-                                </tr>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="productDetail.html">
+                                                <div class="best-selling-border">
+                                                    <img src="assets/img/Product/watermelon.png" alt="" class="best-selling-img">
+                                                    <div class="best-selling-body">
+                                                        <h3 class="best-selling-name">Dưa hấu</h3>
+                                                        <p class="best-selling-unit">Đơn vị: KG</p>
+                                                        <p class="price"><del>40.000 vnđ</del><span class="sale-price"> 25.000 vnđ</span></p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="productDetail.html">
+                                                <div class="best-selling-border">
+                                                    <img src="assets/img/Product/lychee.png" alt="" class="best-selling-img">
+                                                    <div class="best-selling-body">
+                                                        <h3 class="best-selling-name">Vải</h3>
+                                                        <p class="best-selling-unit">Đơn vị: KG</p>
+                                                        <p class="price"><del>80.000 vnđ</del><span class="sale-price"> 69.000 vnđ</span></p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="productDetail.html">
+                                                <div class="best-selling-border">
+                                                    <img src="assets/img/Product/passionfruit.png" alt="" class="best-selling-img">
+                                                    <div class="best-selling-body">
+                                                        <h3 class="best-selling-name">Chanh dây</h3>
+                                                        <p class="best-selling-unit">Đơn vị: KG</p>
+                                                        <p class="price"><del>149.000 vnđ</del><span class="sale-price"> 129.000 vnđ</span></p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="productDetail.html">
+                                                <div class="best-selling-border">
+                                                    <img src="assets/img/Product/guava.png" alt="" class="best-selling-img">
+                                                    <div class="best-selling-body">
+                                                        <h3 class="best-selling-name">Ổi</h3>
+                                                        <p class="best-selling-unit">Đơn vị: KG</p>
+                                                        <p class="price"><del>60.000 vnđ</del><span class="sale-price"> 55.000 vnđ</span></p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </td>
+                                    </tr>
                                 </table>
                                 <div class="num-page ">
                                     <a href="#"></a><i class="fas fa-chevron-left num-page2" style="cursor: pointer; margin-right: 10px;"></i></a>
@@ -403,10 +484,10 @@
                     <div class="footer-content">
                         <div class="payment-list">
                             <img src="assets/img/icon/ic_truck.png">
-                                <img src="assets/img/payment/ic_momo.png">
-                                <img src="assets/img/payment/ic_zalopay.png">
-                                <img src="assets/img/icon/ic_napas.png">
-                                <img src="assets/img/icon/ic_visa.png">
+                            <img src="assets/img/payment/ic_momo.png">
+                            <img src="assets/img/payment/ic_zalopay.png">
+                            <img src="assets/img/icon/ic_napas.png">
+                            <img src="assets/img/icon/ic_visa.png">
                         </div>
                     </div>
                 </div>
@@ -538,10 +619,9 @@
                     </div>
                 </div>
 
-                <button class="confirm">
-                    Xác nhận
-                    <i class="ti-check"></i>
-                </button>
+                <div class="confirm">
+                    <button>Xác nhận</button>
+                </div>
 
             </div>
         </div>

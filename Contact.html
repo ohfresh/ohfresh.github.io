@@ -16,55 +16,53 @@
 </head>
 
 <body>
-    <div id="mai">
+    <div id="main">
         <div id="header">
             <div id="container1">
                 <div id="logo">
                     <a href="index.html"><img src="assets/img/LOGO.png" alt="Oh! Fresh" title="Oh! Fresh" id="logo"></a>
                 </div>
 
-                <div class="spacer"></div>
-                <div id="location">
-                    <div class="delivery-title">
-                        <span>Giao hàng tới</span>
-                        <i class="fas fa-map-marker-alt" style="margin-left: 3px;"></i>
+                <!-- <div class="spacer"></div> -->
+                <div id="location-search">
+                    <div id="location">
+                        <div class="delivery-title">
+                            <span>Giao hàng tới</span>
+                            <i class="fas fa-map-marker-alt" style="margin-left: 3px;"></i>
+                        </div>
+
+                        <div class="delivery-site">
+                            <a href="#" class="js-select-location">
+                                <span id="select-site">Chọn khu vực</span>
+                                <i class="fas fa-chevron-down" style="margin-left: 1px;"></i>
+                            </a>
+                        </div>
                     </div>
 
-                    <div class="delivery-site">
-                        <a href="#" class="js-select-location">
-                            <span id="select-site">Chọn khu vực</span>
-                            <i class="fas fa-chevron-down" style="margin-left: 1px;"></i>
-                        </a>
+                    <!-- Search bar start -->
+                    <div class="search-wrapper">
+                        <div class="search-input">
+                            <input type="text" name="" placeholder="Hôm nay ăn gì?..." id="">
+                            <div class="search-icon"><i class="fas fa-search"></i></div>
+                            <span class="bottom"></span>
+                            <span class="right"></span>
+                            <span class="top"></span>
+                            <span class="left"></span>
+                            <!-- <div class="autocom-box">
+                                <ul>
+                                    <li>Cà rốt</li>
+                                    <li>Dâu tây Dalas</li>
+                                    <li>Chanh không hạt</li>
+                                    <li>Thanh long ruột đỏ</li>
+                                    <li>Măng tây xanh hữu cơ</li>
+                                </ul>
+                            </div> -->
+                        </div>
                     </div>
-                    <!-- <div class="dropdown">
-    
-    
-                    </div> -->
+                    <!-- Search bar end-->
                 </div>
 
                 <!-- <div class="spacer"></div> -->
-
-                <div class="search-wrapper">
-                    <div class="search-input">
-                        <input type="text" name="" placeholder="Hôm nay ăn gì?..." id="">
-                        <div class="search-icon"><i class="fas fa-search"></i></div>
-                        <span class="bottom"></span>
-                        <span class="right"></span>
-                        <span class="top"></span>
-                        <span class="left"></span>
-                        <!-- <div class="autocom-box">
-                            <ul>
-                                <li>Cà rốt</li>
-                                <li>Dâu tây Dalas</li>
-                                <li>Chanh không hạt</li>
-                                <li>Thanh long ruột đỏ</li>
-                                <li>Măng tây xanh hữu cơ</li>
-                            </ul>
-                        </div> -->
-                    </div>
-                </div>
-
-                <div class="spacer"></div>
 
                 <div class="link">
                     <div class="notification">
@@ -73,6 +71,49 @@
                             </div>
                             <span>Thông báo</span>
                         </a>
+                        <ul class="subnav">
+                            <p class="notification-label">Thông báo của bạn</p>
+                            <li>
+                                <a href="#">
+                                    <div class="notify-section">
+                                        <div class="notify-thumb">
+                                            <img src="assets/img/Product/Apple.png" alt="">
+                                        </div>
+                                        <div class="notify-text">
+                                            <h5>Rẻ chưa từng có đồng giá 29K</h5>
+                                            <p>Thu thập ngay voucher 50K cho đơn từ 100K. Xem ngay tại đây!</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="orderDetail.html">
+                                    <div class="notify-section">
+                                        <div class="notify-thumb">
+                                            <i class="fas fa-truck-loading"></i>
+                                        </div>
+                                        <div class="notify-text">
+                                            <h5>Đã xác nhận đơn hàng</h5>
+                                            <p>Đơn hàng #123456 đã được xác nhận. Vui lòng chờ Oh! Fresh một lát nhé!</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="notify-section">
+                                        <div class="notify-thumb">
+                                            <img src="assets/img//tet-promo/ic_tet2.png" alt="">
+                                        </div>
+                                        <div class="notify-text">
+                                            <h5>Siêu khuyến mãi chào năm mới!</h5>
+                                            <p>Thu thập ngay voucher 50K cho đơn từ 100K. Xem ngay tại đây!</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <a href="#" class="more">Xem thêm</a>
+                        </ul>
                     </div>
 
                     <div class="shopping-cart">
@@ -83,10 +124,40 @@
                     </div>
 
                     <div class="my-account">
-                        <a href="myAccount.html">
+                        <a href="#">
                             <div class="icon"><i class="fas fa-user-circle"></i></div>
                             <span>Tài khoản</span>
                         </a>
+                        <ul class="subnav">
+                            <li>
+                                <a href="myAccount.html">
+                                    <div class="icon"><i class="fas fa-user-circle"></i></div>
+                                    <span>Tài khoản của tôi</span>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="SignUp.html">
+                                    <div class="icon"><i class="fas fa-user-plus"></i></div>
+                                    <span>Đăng ký</span>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="SignIn.html">
+                                    <div class="icon"><i class="fas fa-sign-in-alt"></i></div>
+                                    <span>Đăng nhập</span>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="SignIn.html">
+                                    <div class="icon"><i class="fas fa-sign-out-alt"></i></div>
+                                    <span>Đăng xuất</span>
+                                </a>
+
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
@@ -99,17 +170,25 @@
                         <span id="select">Danh mục sản phẩm</span>
                         <i class="fas fa-chevron-down" style="margin-left: 2%;"></i>
                     </a>
+
+                    <ul class="subnav">
+                        <li><a href="">Rau, củ, quả</a></li>
+                        <li><a href="">Trái cây tươi</a></li>
+                        <li><a href="">Ngũ cốc, hạt</a></li>
+                        <li><a href="">Nấm</a></li>
+                        <li class="last-item"><a href="">Gia vị</a></li>
+                    </ul>
                 </div>
 
                 <div class="spacer"></div>
 
                 <div id="navigation">
                     <ul id="nav">
-                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="index.html" class="now">Trang chủ</a></li>
                         <li><a href="promotion.html">Khuyến mãi</a></li>
                         <li><a href="blogList.html">Blog</a></li>
                         <li><a href="AboutUs.html">Về chúng tôi</a></li>
-                        <li><a href="Contact.html" class="now">Liên hệ</a></li>
+                        <li><a href="Contact.html">Liên hệ</a></li>
                     </ul>
                 </div>
                 <div class="spacer"></div>
@@ -130,14 +209,14 @@
                 <h1 style="text-align: center; margin-top: 30px; ">Địa chỉ</h1>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.212732769478!2d106.7218535!3d10.7950125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529aff2892003%3A0x856b53b1af6b19f3!2sLandmark%2081!5e0!3m2!1svi!2s!4v1638321126753!5m2!1svi!2s"
                     width="600" height="150px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    <p><i class="fas fa-map-marker-alt"></i>&nbsp; 365 Lê Văn Sỹ, Phường 12, Quận 3</p>
-                    <p><i class="fas fa-phone-alt"></i> 0123.456.789</p>
-                    <p><i class="fas fa-envelope"></i> ohfreshgrocery@gmail.com</p>
-                    <p><i class="fas fa-download"></i><a href="" style="text-decoration: none;">Tải app tại đây</a></p>
-                        <a href=""><i class="fab fa-facebook" style="color: black; margin-top: 5px; "></i></a>
-                        <a href=""><i class="fab fa-instagram" style="color: black; margin-top: 5px;"></i></a>
-                        <a href=""><i class="fab fa-twitter" style="color: black; margin-top: 5px;"></i></a>
-               
+                <p><i class="fas fa-map-marker-alt"></i>&nbsp; 365 Lê Văn Sỹ, Phường 12, Quận 3</p>
+                <p><i class="fas fa-phone-alt"></i> 0123.456.789</p>
+                <p><i class="fas fa-envelope"></i> ohfreshgrocery@gmail.com</p>
+                <p><i class="fas fa-download"></i><a href="" style="text-decoration: none;">Tải app tại đây</a></p>
+                <a href=""><i class="fab fa-facebook" style="color: black; margin-top: 5px; "></i></a>
+                <a href=""><i class="fab fa-instagram" style="color: black; margin-top: 5px;"></i></a>
+                <a href=""><i class="fab fa-twitter" style="color: black; margin-top: 5px;"></i></a>
+
             </div>
             <div class="contact-form">
                 <h1>Liên hệ</h1>
@@ -260,6 +339,75 @@
             </div>
         </div>
     </div>
+
+    <!-- MODAL POPUP START -->
+
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="fas fa-times"></i>
+            </div>
+
+            <header class="modal-header">
+                <img src="assets/img/LOGO_white.png" alt="">
+            </header>
+
+            <div class="modal-body">
+
+                <label for="quantity" class="modal-label">
+                    <i class="ti-shopping-cart"></i>
+                    Vui lòng chọn khu vực mua sắm của bạn
+                </label>
+
+                <div class="dropdown">
+                    <div class="dropdown-select">
+                        <span class="select">Chọn khu vực</span>
+                        <i class="fas fa-sort-down"></i>
+                    </div>
+
+                    <div class="dropdown-list">
+                        <div class="dropdown-list_item">Hà Nội</div>
+                        <div class="dropdown-list_item">Đà Nẵng</div>
+                        <div class="dropdown-list_item">Hồ Chí Minh</div>
+                    </div>
+                </div>
+
+                <div class="confirm">
+                    <button>Xác nhận</button>
+                </div>
+
+            </div>
+        </div>
+        <!-- MODAL POPUP END -->
+        <!-- Js FOR POP-UP START -->
+
+        <script>
+            // Js FOR POP-UP START
+            const slLocation = document.querySelector('.js-select-location')
+
+            const modal = document.querySelector('.js-modal')
+            const modalClose = document.querySelector('.js-modal-close')
+            const modalContainer = document.querySelector('.js-modal-container')
+
+            function showLocationPopup() {
+                modal.classList.add('open')
+            }
+
+            function hideLocationPopup() {
+                modal.classList.remove('open')
+            }
+
+            slLocation.addEventListener('click', showLocationPopup)
+
+            modalClose.addEventListener('click', hideLocationPopup)
+
+            modal.addEventListener('click', hideLocationPopup)
+
+            modalContainer.addEventListener('click', function(event) {
+                    event.stopPropagation()
+                })
+                // Js FOR POP-UP END
+        </script>
 </body>
 
 </html>

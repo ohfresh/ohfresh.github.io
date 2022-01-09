@@ -24,48 +24,46 @@
                     <a href="index.html"><img src="assets/img/LOGO.png" alt="Oh! Fresh" title="Oh! Fresh" id="logo"></a>
                 </div>
 
-                <div class="spacer"></div>
-                <div id="location">
-                    <div class="delivery-title">
-                        <span>Giao hàng tới</span>
-                        <i class="fas fa-map-marker-alt" style="margin-left: 3px;"></i>
+                <!-- <div class="spacer"></div> -->
+                <div id="location-search">
+                    <div id="location">
+                        <div class="delivery-title">
+                            <span>Giao hàng tới</span>
+                            <i class="fas fa-map-marker-alt" style="margin-left: 3px;"></i>
+                        </div>
+
+                        <div class="delivery-site">
+                            <a href="#" class="js-select-location">
+                                <span id="select-site">Chọn khu vực</span>
+                                <i class="fas fa-chevron-down" style="margin-left: 1px;"></i>
+                            </a>
+                        </div>
                     </div>
 
-                    <div class="delivery-site">
-                        <a href="#" class="js-select-location">
-                            <span id="select-site">Chọn khu vực</span>
-                            <i class="fas fa-chevron-down" style="margin-left: 1px;"></i>
-                        </a>
+                    <!-- Search bar start -->
+                    <div class="search-wrapper">
+                        <div class="search-input">
+                            <input type="text" name="" placeholder="Hôm nay ăn gì?..." id="">
+                            <div class="search-icon"><i class="fas fa-search"></i></div>
+                            <span class="bottom"></span>
+                            <span class="right"></span>
+                            <span class="top"></span>
+                            <span class="left"></span>
+                            <!-- <div class="autocom-box">
+                                <ul>
+                                    <li>Cà rốt</li>
+                                    <li>Dâu tây Dalas</li>
+                                    <li>Chanh không hạt</li>
+                                    <li>Thanh long ruột đỏ</li>
+                                    <li>Măng tây xanh hữu cơ</li>
+                                </ul>
+                            </div> -->
+                        </div>
                     </div>
-                    <!-- <div class="dropdown">
-    
-    
-                    </div> -->
+                    <!-- Search bar end-->
                 </div>
 
                 <!-- <div class="spacer"></div> -->
-
-                <div class="search-wrapper">
-                    <div class="search-input">
-                        <input type="text" name="" placeholder="Hôm nay ăn gì?..." id="">
-                        <div class="search-icon"><i class="fas fa-search"></i></div>
-                        <span class="bottom"></span>
-                        <span class="right"></span>
-                        <span class="top"></span>
-                        <span class="left"></span>
-                        <!-- <div class="autocom-box">
-                            <ul>
-                                <li>Cà rốt</li>
-                                <li>Dâu tây Dalas</li>
-                                <li>Chanh không hạt</li>
-                                <li>Thanh long ruột đỏ</li>
-                                <li>Măng tây xanh hữu cơ</li>
-                            </ul>
-                        </div> -->
-                    </div>
-                </div>
-
-                <div class="spacer"></div>
 
                 <div class="link">
                     <div class="notification">
@@ -74,6 +72,49 @@
                             </div>
                             <span>Thông báo</span>
                         </a>
+                        <ul class="subnav">
+                            <p class="notification-label">Thông báo của bạn</p>
+                            <li>
+                                <a href="#">
+                                    <div class="notify-section">
+                                        <div class="notify-thumb">
+                                            <img src="assets/img/Product/Apple.png" alt="">
+                                        </div>
+                                        <div class="notify-text">
+                                            <h5>Rẻ chưa từng có đồng giá 29K</h5>
+                                            <p>Thu thập ngay voucher 50K cho đơn từ 100K. Xem ngay tại đây!</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="orderDetail.html">
+                                    <div class="notify-section">
+                                        <div class="notify-thumb">
+                                            <i class="fas fa-truck-loading"></i>
+                                        </div>
+                                        <div class="notify-text">
+                                            <h5>Đã xác nhận đơn hàng</h5>
+                                            <p>Đơn hàng #123456 đã được xác nhận. Vui lòng chờ Oh! Fresh một lát nhé!</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="notify-section">
+                                        <div class="notify-thumb">
+                                            <img src="assets/img//tet-promo/ic_tet2.png" alt="">
+                                        </div>
+                                        <div class="notify-text">
+                                            <h5>Siêu khuyến mãi chào năm mới!</h5>
+                                            <p>Thu thập ngay voucher 50K cho đơn từ 100K. Xem ngay tại đây!</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <a href="#" class="more">Xem thêm</a>
+                        </ul>
                     </div>
 
                     <div class="shopping-cart">
@@ -84,10 +125,40 @@
                     </div>
 
                     <div class="my-account">
-                        <a href="myAccount.html">
+                        <a href="#">
                             <div class="icon"><i class="fas fa-user-circle"></i></div>
                             <span>Tài khoản</span>
                         </a>
+                        <ul class="subnav">
+                            <li>
+                                <a href="myAccount.html">
+                                    <div class="icon"><i class="fas fa-user-circle"></i></div>
+                                    <span>Tài khoản của tôi</span>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="SignUp.html">
+                                    <div class="icon"><i class="fas fa-user-plus"></i></div>
+                                    <span>Đăng ký</span>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="SignIn.html">
+                                    <div class="icon"><i class="fas fa-sign-in-alt"></i></div>
+                                    <span>Đăng nhập</span>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="SignIn.html">
+                                    <div class="icon"><i class="fas fa-sign-out-alt"></i></div>
+                                    <span>Đăng xuất</span>
+                                </a>
+
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
@@ -100,16 +171,24 @@
                         <span id="select">Danh mục sản phẩm</span>
                         <i class="fas fa-chevron-down" style="margin-left: 2%;"></i>
                     </a>
+
+                    <ul class="subnav">
+                        <li><a href="">Rau, củ, quả</a></li>
+                        <li><a href="">Trái cây tươi</a></li>
+                        <li><a href="">Ngũ cốc, hạt</a></li>
+                        <li><a href="">Nấm</a></li>
+                        <li class="last-item"><a href="">Gia vị</a></li>
+                    </ul>
                 </div>
 
                 <div class="spacer"></div>
 
                 <div id="navigation">
                     <ul id="nav">
-                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="index.html" class="now">Trang chủ</a></li>
                         <li><a href="promotion.html">Khuyến mãi</a></li>
                         <li><a href="blogList.html">Blog</a></li>
-                        <li><a href="AboutUs.html" class="now">Về chúng tôi</a></li>
+                        <li><a href="AboutUs.html">Về chúng tôi</a></li>
                         <li><a href="Contact.html">Liên hệ</a></li>
                     </ul>
                 </div>
