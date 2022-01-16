@@ -94,7 +94,7 @@ a {
 .thumbnail {
     width: 100%;
     padding-top: 50%;
-    background: url('/assets/img/Blog/Eatclean.jpg') top center / cover no-repeat;
+    background: url('./assets/img/Blog/Eatclean.jpg') top center / cover no-repeat;
 }
 
 .content {

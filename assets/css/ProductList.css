@@ -127,7 +127,7 @@ filter{
     border-radius: 0px;
     cursor: pointer;
     font-weight: bold;
-    color: black;
+    
 }
 
 .list-group-item:hover  {
@@ -228,4 +228,10 @@ filter{
     opacity: 1;
     transform: scale(0.85);
     transition: 0.2s ease-in-out;
+}
+
+.highlight{
+    color: var(--primary_green) !important;
+    font-weight: bold;
+    
 }
